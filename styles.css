@@ -1,0 +1,47 @@
+:root {
+    --verydark: #0C3444;
+    --dark: #2A637A;
+    --medium: #4A9FC1;
+    --light: #95C7DB;
+    --verylight: #fffff;
+    --green: #11CE83;
+    --blue: #23BAFF;
+    --purple: #A159FF;
+    --red: #F24F1A;
+    --white: #ffffff;
+}
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--verylight);
+    font-family: 'Source Serif Pro', serif;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page {
+    max-width: 700px;
+}
+
+.title {
+    color: var(--green);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h1 {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--blue);
+}
+
+p {
+    font-size: 20px;
+}
