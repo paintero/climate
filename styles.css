@@ -6,6 +6,7 @@
     --verylight: #fffff;
     --green: #11CE83;
     --blue: #23BAFF;
+    --lightblue: #bae6fa;
     --purple: #A159FF;
     --red: #F24F1A;
     --white: #ffffff;
@@ -16,6 +17,7 @@ body {
     padding-right: 20px;
     background-color: var(--verylight);
     font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
 }
 
 main {
@@ -44,4 +46,10 @@ h2 {
 
 p {
     font-size: 20px;
+}
+
+.quote {
+    background-color: var(--lightblue);
+    padding: 20px;
+    border-radius: 10px;
 }
